@@ -113,15 +113,6 @@ int main(void)
 
   /* USER CODE BEGIN RTOS_TIMERS */
   xSwTimerLed = xTimerCreate ("SwTimerLed", pdMS_TO_TICKS(300), pdTRUE, 0, vCallbackSwTimerLed);
-  if (xSwTimerLed != NULL)
-  {
-	  xTimerStart (xSwTimerLed, 100) ;
-  }
-  else
-  {
-	  // Timer doun't created.
-  }
-
   /* USER CODE END RTOS_TIMERS */
 
   /* USER CODE BEGIN RTOS_QUEUES */
