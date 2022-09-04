@@ -1,10 +1,10 @@
 /* Includes ------------------------------------------------------------------*/
-#include "FreeRTOSConfig.h"
 
 #include "stm32l4xx_hal.h"
 
 #include "main.h"
 
+#include "FreeRTOS.h"
 #include "timers.h"
 
 /* Private define ------------------------------------------------------------*/
